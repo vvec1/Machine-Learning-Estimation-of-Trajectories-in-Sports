@@ -11,7 +11,7 @@ Optuna selects among LSTM, GRU, BiLSTM, StatefulLSTM, StatefulGRU and SelfAttent
 - `data.7z`: compressed dataset containing `dataframes_*.pkl` files (per-throw measurements) and `valid_results_*.csv` files (throw records and participant/session information).
 - `requirements.txt`: Python dependencies (unpinned).
 
-The dataset is compressed for distribution on GitHub. It covers 20 participants, with second-day recordings for participants 003–013.
+The dataset is compressed for distribution on GitHub. It covers 20 participants.
 
 ## Run
 
