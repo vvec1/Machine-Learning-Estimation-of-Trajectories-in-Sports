@@ -8,7 +8,7 @@ Optuna selects among LSTM, GRU, BiLSTM, StatefulLSTM, StatefulGRU and SelfAttent
 
 - `Path_Estimation_AUTOML_all_models_fully_stateful.py`: preprocessing, tuning, training and evaluation.
 - `loader.py`, `functions.py`: data loading and preprocessing helpers.
-- `data.7z`: compressed dataset containing 31 `dataframes_*.pkl` files (per-throw measurements) and 31 `valid_results_*.csv` files (throw records and participant/session information).
+- `data.7z`: compressed dataset containing `dataframes_*.pkl` files (per-throw measurements) and `valid_results_*.csv` files (throw records and participant/session information).
 - `requirements.txt`: Python dependencies (unpinned).
 
 The dataset is compressed for distribution on GitHub. It covers 20 participants, with second-day recordings for participants 003–013.
